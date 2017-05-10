@@ -9,13 +9,13 @@ public class LightBulbTest {
 	LightBulb lightBulb;
 	@Before
 	public void setUp() throws Exception {
-		lightBulb=new LightBulb(40);
+		lightBulb=new LightBulb(100);
 	}
 
 	@Test
 	public void testWattage() {
 		//fail("Not yet implemented");
-		assertEquals(40,lightBulb.getBulbWattage());
+		assertEquals(100,lightBulb.getBulbWattage());
 	}
 
 }
